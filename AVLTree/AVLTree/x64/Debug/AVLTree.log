@@ -1,0 +1,57 @@
+﻿  test.cpp
+D:\AVLTree\AVLTree\AVLTree.h(265,27): warning C4566: 由通用字符名称“\u2FBC”表示的字符不能在当前代码页(936)中表示出来
+  (编译源文件“test.cpp”)
+  
+D:\AVLTree\AVLTree\AVLTree.h(270,26): warning C4566: 由通用字符名称“\u2F26”表示的字符不能在当前代码页(936)中表示出来
+  (编译源文件“test.cpp”)
+  
+D:\AVLTree\AVLTree\test.cpp(23,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\AVLTree\AVLTree\test.cpp(26,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\AVLTree\AVLTree\test.cpp(26,22): warning C4267:         with
+D:\AVLTree\AVLTree\test.cpp(26,22): warning C4267:         [
+D:\AVLTree\AVLTree\test.cpp(26,22): warning C4267:             _Ty=int
+D:\AVLTree\AVLTree\test.cpp(26,22): warning C4267:         ]
+D:\AVLTree\AVLTree\test.cpp(49,18): warning C4267: “参数”: 从“size_t”转换到“const T”，可能丢失数据
+D:\AVLTree\AVLTree\test.cpp(49,18): warning C4267:         with
+D:\AVLTree\AVLTree\test.cpp(49,18): warning C4267:         [
+D:\AVLTree\AVLTree\test.cpp(49,18): warning C4267:             T=int
+D:\AVLTree\AVLTree\test.cpp(49,18): warning C4267:         ]
+D:\AVLTree\AVLTree\AVLTree.h(281,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\AVLTree\AVLTree\AVLTree.h(281,18):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\AVLTree\AVLTree\test.cpp(6,15):
+          查看对正在编译的 类 模板 实例化“AVLTree<int>”的引用
+          D:\AVLTree\AVLTree\AVLTree.h(277,9):
+          在编译 类 模板 成员函数“size_t AVLTree<int>::_Height(AVLTreeNode<T> *)”时
+          with
+          [
+              T=int
+          ]
+              D:\AVLTree\AVLTree\AVLTree.h(248,3):
+              请参阅 "AVLTree<int>::Height" 中对 "AVLTree<int>::_Height" 的第一个引用
+              D:\AVLTree\AVLTree\test.cpp(38,34):
+              请参阅 "TestAVLTree2" 中对 "AVLTree<int>::Height" 的第一个引用
+  
+D:\AVLTree\AVLTree\AVLTree.h(282,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\AVLTree\AVLTree\AVLTree.h(257,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\AVLTree\AVLTree\AVLTree.h(257,18):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\AVLTree\AVLTree\AVLTree.h(252,7):
+          在编译 类 模板 成员函数“bool AVLTree<int>::_IsAVLTree(AVLTreeNode<T> *)”时
+          with
+          [
+              T=int
+          ]
+              D:\AVLTree\AVLTree\AVLTree.h(219,3):
+              请参阅 "AVLTree<int>::IsAVLTree" 中对 "AVLTree<int>::_IsAVLTree" 的第一个引用
+              D:\AVLTree\AVLTree\test.cpp(16,24):
+              请参阅 "TestAVLTree1" 中对 "AVLTree<int>::IsAVLTree" 的第一个引用
+  
+D:\AVLTree\AVLTree\AVLTree.h(258,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+  AVLTree.vcxproj -> D:\AVLTree\x64\Debug\AVLTree.exe
