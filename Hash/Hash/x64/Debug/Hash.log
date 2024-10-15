@@ -1,0 +1,26 @@
+﻿  test.cpp
+D:\Hash\Hash\Hash.h(51,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\Hash\Hash\Hash.h(51,30):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\Hash\Hash\test.cpp(6,35):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::HashTable<int,int,dziuGaaSoen::HashFunc<K>>”的引用
+          with
+          [
+              K=int
+          ]
+          D:\Hash\Hash\Hash.h(46,8):
+          在编译 类 模板 成员函数“bool dziuGaaSoen::HashTable<int,int,dziuGaaSoen::HashFunc<K>>::Insert(const std::pair<K,V> &)”时
+          with
+          [
+              K=int,
+              V=int
+          ]
+              D:\Hash\Hash\test.cpp(9,12):
+              请参阅 "main" 中对 "dziuGaaSoen::HashTable<int,int,dziuGaaSoen::HashFunc<K>>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+  Hash.vcxproj -> D:\Hash\x64\Debug\Hash.exe
