@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\BinaryTreeAlgorithm\BinaryTreeAlgorithm\test.cpp(146,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  BinaryTreeAlgorithm.vcxproj -> D:\BinaryTreeAlgorithm\x64\Debug\BinaryTreeAlgorithm.exe
