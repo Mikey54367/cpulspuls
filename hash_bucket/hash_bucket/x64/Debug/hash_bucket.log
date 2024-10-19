@@ -1,0 +1,55 @@
+﻿  test.cpp
+D:\hash_bucket\hash_bucket\test.cpp(6,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\hash_bucket\hash_bucket\hash_bucket.h(96,57): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\hash_bucket\hash_bucket\hash_bucket.h(96,57):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\hash_bucket\hash_bucket\test.cpp(8,30):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>”的引用
+          with
+          [
+              K=int
+          ]
+          D:\hash_bucket\hash_bucket\hash_bucket.h(89,8):
+          在编译 类 模板 成员函数“bool dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Insert(const K &)”时
+          with
+          [
+              K=int
+          ]
+              D:\hash_bucket\hash_bucket\test.cpp(13,12):
+              请参阅 "main" 中对 "dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+D:\hash_bucket\hash_bucket\hash_bucket.h(105,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\hash_bucket\hash_bucket\hash_bucket.h(120,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\hash_bucket\hash_bucket\hash_bucket.h(138,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\hash_bucket\hash_bucket\hash_bucket.h(138,14):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\hash_bucket\hash_bucket\hash_bucket.h(135,8):
+          在编译 类 模板 成员函数“bool dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Find(const K &)”时
+          with
+          [
+              K=int
+          ]
+              D:\hash_bucket\hash_bucket\hash_bucket.h(92,4):
+              请参阅 "dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Insert" 中对 "dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Find" 的第一个引用
+          with
+          [
+              K=int
+          ]
+              D:\hash_bucket\hash_bucket\test.cpp(13,12):
+              请参阅 "main" 中对 "dziuGaaSoen::HashTable<int,dziuGaaSoen::HashFunc<K>>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+  hash_bucket.vcxproj -> D:\hash_bucket\x64\Debug\hash_bucket.exe
