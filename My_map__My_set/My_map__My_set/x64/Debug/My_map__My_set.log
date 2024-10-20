@@ -1,0 +1,137 @@
+﻿  test.cpp
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(62,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\My_map__My_set\My_map__My_set\hash_bucket.h(62,15):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\My_map__My_set\My_map__My_set\unorderedset.h(60,38):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash>”的引用
+          with
+          [
+              K=int,
+              T=int,
+              keyOfT=dziuGaaSoen::KeyOfKey<const int,const int>,
+              Hash=dziuGaaSoen::DefHashF<int>
+          ]
+          D:\My_map__My_set\My_map__My_set\hash_bucket.h(54,9):
+          在编译 类 模板 成员函数“dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash> &dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash>::operator ++(void)”时
+          with
+          [
+              K=int,
+              T=int,
+              keyOfT=dziuGaaSoen::KeyOfKey<const int,const int>,
+              Hash=dziuGaaSoen::DefHashF<int>
+          ]
+              D:\My_map__My_set\My_map__My_set\unorderedset.h(65,4):
+              请参阅 "dziuGaaSoen::print" 中对 "dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash>::operator ++" 的第一个引用
+          with
+          [
+              K=int,
+              T=int,
+              keyOfT=dziuGaaSoen::KeyOfKey<const int,const int>,
+              Hash=dziuGaaSoen::DefHashF<int>
+          ]
+  
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(200,57): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\My_map__My_set\My_map__My_set\hash_bucket.h(200,57):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\My_map__My_set\My_map__My_set\unorderedset.h(60,23):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::unordered_set<int,dziuGaaSoen::DefHashF<K>>”的引用
+          with
+          [
+              K=int
+          ]
+          D:\My_map__My_set\My_map__My_set\unorderedset.h(24,24):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::HashTable<const K,const K,dziuGaaSoen::KeyOfKey<const K,const K>,HF>”的引用
+          with
+          [
+              K=int,
+              HF=dziuGaaSoen::DefHashF<int>
+          ]
+          D:\My_map__My_set\My_map__My_set\hash_bucket.h(192,23):
+          在编译 类 模板 成员函数“std::pair<dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash>,bool> dziuGaaSoen::HashTable<const K,const K,keyOfT,Hash>::Insert(T &)”时
+          with
+          [
+              K=int,
+              T=int,
+              keyOfT=dziuGaaSoen::KeyOfKey<const int,const int>,
+              Hash=dziuGaaSoen::DefHashF<int>
+          ]
+              D:\My_map__My_set\My_map__My_set\unorderedset.h(44,4):
+              请参阅 "dziuGaaSoen::unordered_set<int,dziuGaaSoen::DefHashF<K>>::insert" 中对 "dziuGaaSoen::HashTable<const K,const K,dziuGaaSoen::KeyOfKey<const K,const K>,HF>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+              D:\My_map__My_set\My_map__My_set\unorderedset.h(81,12):
+              请参阅 "dziuGaaSoen::test_set1" 中对 "dziuGaaSoen::unordered_set<int,dziuGaaSoen::DefHashF<K>>::insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(209,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(224,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(243,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\My_map__My_set\My_map__My_set\hash_bucket.h(243,14):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\My_map__My_set\My_map__My_set\unordered_map.h(93,33):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::unordered_map<std::string,std::string,dziuGaaSoen::DefHashF<std::string>>”的引用
+          D:\My_map__My_set\My_map__My_set\unordered_map.h(44,24):
+          查看对正在编译的 类 模板 实例化“dziuGaaSoen::HashTable<const K,std::pair<const K,V>,dziuGaaSoen::KeyOfValue<K,V>,HF>”的引用
+          with
+          [
+              K=std::string,
+              V=std::string,
+              HF=dziuGaaSoen::DefHashF<std::string>
+          ]
+          D:\My_map__My_set\My_map__My_set\hash_bucket.h(240,12):
+          在编译 类 模板 成员函数“dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash> dziuGaaSoen::HashTable<const K,T,keyOfT,Hash>::Find(K &)”时
+          with
+          [
+              K=std::string,
+              T=std::pair<const std::string,std::string>,
+              keyOfT=dziuGaaSoen::KeyOfValue<std::string,std::string>,
+              Hash=dziuGaaSoen::DefHashF<std::string>
+          ]
+              D:\My_map__My_set\My_map__My_set\unordered_map.h(70,33):
+              请参阅 "dziuGaaSoen::unordered_map<std::string,std::string,dziuGaaSoen::DefHashF<std::string>>::find" 中对 "dziuGaaSoen::HashTable<const K,std::pair<const K,V>,dziuGaaSoen::KeyOfValue<K,V>,HF>::Find" 的第一个引用
+          with
+          [
+              K=std::string,
+              V=std::string,
+              HF=dziuGaaSoen::DefHashF<std::string>
+          ]
+              D:\My_map__My_set\My_map__My_set\unordered_map.h(105,47):
+              请参阅 "dziuGaaSoen::test_map1" 中对 "dziuGaaSoen::unordered_map<std::string,std::string,dziuGaaSoen::DefHashF<std::string>>::find" 的第一个引用
+  
+D:\My_map__My_set\My_map__My_set\hash_bucket.h(142,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\My_map__My_set\My_map__My_set\hash_bucket.h(142,13):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\My_map__My_set\My_map__My_set\hash_bucket.h(138,12):
+          在编译 类 模板 成员函数“dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash> dziuGaaSoen::HashTable<const K,T,keyOfT,Hash>::Erase(dziuGaaSoen::HTIterator<K,T,T &,T *,keyOfT,Hash>)”时
+          with
+          [
+              K=std::string,
+              T=std::pair<const std::string,std::string>,
+              keyOfT=dziuGaaSoen::KeyOfValue<std::string,std::string>,
+              Hash=dziuGaaSoen::DefHashF<std::string>
+          ]
+              D:\My_map__My_set\My_map__My_set\unordered_map.h(81,4):
+              请参阅 "dziuGaaSoen::unordered_map<std::string,std::string,dziuGaaSoen::DefHashF<std::string>>::erase" 中对 "dziuGaaSoen::HashTable<const K,std::pair<const K,V>,dziuGaaSoen::KeyOfValue<K,V>,HF>::Erase" 的第一个引用
+          with
+          [
+              K=std::string,
+              V=std::string,
+              HF=dziuGaaSoen::DefHashF<std::string>
+          ]
+              D:\My_map__My_set\My_map__My_set\unordered_map.h(106,13):
+              请参阅 "dziuGaaSoen::test_map1" 中对 "dziuGaaSoen::unordered_map<std::string,std::string,dziuGaaSoen::DefHashF<std::string>>::erase" 的第一个引用
+  
+  My_map__My_set.vcxproj -> D:\My_map__My_set\x64\Debug\My_map__My_set.exe
