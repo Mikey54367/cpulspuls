@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\CPP\10-22\10-22\test.cpp(22,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\CPP\10-22\10-22\test.cpp(56,33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\CPP\10-22\10-22\test.cpp(91,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  10-22.vcxproj -> D:\CPP\10-22\x64\Debug\10-22.exe
