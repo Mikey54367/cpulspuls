@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\CPP\10-24\10-24\test.cpp(30,33): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\CPP\10-24\10-24\test.cpp(47,17): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  10-24.vcxproj -> D:\CPP\10-24\x64\Debug\10-24.exe
